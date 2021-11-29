@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap);
+
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Fjalla One;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20pc 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  position: relative;
+  max-width: 80px;
+}
