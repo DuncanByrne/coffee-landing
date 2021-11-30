@@ -15,7 +15,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #fff;
+  background: whitesmoke;
 }
 header {
   position: absolute;
