@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: Fjalla One;
 }
-
+/* section */
 section {
   position: relative;
   width: 100%;
@@ -17,6 +17,7 @@ section {
   align-items: center;
   background: whitesmoke;
 }
+/* header */
 header {
   position: absolute;
   top: 0;
@@ -46,7 +47,7 @@ header ul li a {
   margin-left: 40px;
   text-decoration: none;
 }
-
+/* content */
 .content {
   position: relative;
   width: 100%;
@@ -54,7 +55,7 @@ header ul li a {
   justify-content: space-between;
   align-items: center;
 }
-
+/* text box */
 .content .textBox {
   position: relative;
   max-width: 600px;
@@ -82,11 +83,37 @@ header ul li a {
   letter-spacing: 1px;
   text-decoration: none;
 }
-
+/* image */
 .content .imgBox {
   width: 600px;
   display: flex;
   justify-content: flex-end;
   padding-right: 50px;
   margin-top: 50px;
+}
+
+.content .imgBox img {
+  max-width: 340px;
+}
+
+/* drinks */
+.thumb {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  display: flex;
+}
+.thumb li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.thumb li :hover {
+  transform: translateY(-15px);
+}
+.thumb li img {
+  max-width: 60px;
 }
