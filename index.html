@@ -9,6 +9,7 @@
 </head>
 <body>
   <section>
+    <div class="circle"></div>
     <header>
       <a href="#" class="logo"><img src="logocoffe.png" class="logo" alt="logo"></a>
       <ul>
@@ -26,13 +27,13 @@
           <a href="#">Learn More</a>
       </div>
       <div class="imgBox">
-        <img src="matcha-1.png" class="starbucks cup"alt="matcha">
+        <img src="img1.png" class="starbucks"alt="matcha">
       </div>
     </div>
     <ul class="thumb">
-      <li><img src="thumb1.png" alt="coffe cup"></li>
-      <li><img src="thumb2.png" alt="coffee cup"></li>
-      <li><img src="thumb3.png" alt="coffee cup"></li>
+      <li><img src="thumb1.png" alt="coffe cup"  onclick="imgSlider('img1.png')"></li>
+      <li><img src="thumb2.png" alt="coffee cup" onclick="imgSlider('img2.png')"></li>
+      <li><img src="thumb3.png" alt="coffee cup" onclick="imgSlider('img3.png')"></li>
     </ul>
     <ul class="sci">
       <li><a href="#"><img src="facebook.png" alt="facebook logo"></a>
@@ -41,5 +42,11 @@
       </li>
     </ul>
   </section>
+  <script type="text/javascript">
+    function imgSlider(anything){
+      document.querySelector('.starbucks').src = anything;
+
+    }
+  </script>
 </body>
 </html>
